@@ -1,16 +1,14 @@
 <?php namespace L6Hosting\Perpendicular;
 
 class Credentials {
+	
 	private $email = null;
 	private $password = null;
 
-	public function __construct($credentials = array())
+	public function __construct($email, $password)
 	{
-		if (count($credentials) > 0)
-		{
-			$this->email = $credentials['email'];
-			$this->password = $credentials['password'];
-		}
+		$this->email = $email;
+		$this->password = $password;
 	}
 
 	public function getEmail()

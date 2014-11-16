@@ -28,9 +28,9 @@ class Domain extends AbstractAPI {
 		//
 	}
 
-	public function validateNsList()
+	public function validateNsList($ns_list)
 	{
-		//
+		return $this->call('validate_ns_list', array('ns_list' => $ns_list));
 	}
 
 	public function saveContact()
@@ -42,4 +42,5 @@ class Domain extends AbstractAPI {
 	{
 		//
 	}
+
 }

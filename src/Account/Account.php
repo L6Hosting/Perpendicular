@@ -55,7 +55,7 @@ class Account extends AbstractAPI {
 
 	public function getPersonList()
 	{
-		//
+		return $this->call('get_person_list', []);
 	}
 
 }

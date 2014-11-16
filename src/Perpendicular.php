@@ -13,13 +13,12 @@ use L6Hosting\Perpendicular\PP\PP;
 use L6Hosting\Perpendicular\Person\Person;
 use L6Hosting\Perpendicular\SSL\SSL;
 
-
 class Perpendicular {
 
 	protected $credentials;
 	protected $gateURL;
 
-	public function __construct($username = NULL, $password = NULL, $gateURL = NULL)
+	public function __construct($gateURL = NULL, $username = NULL, $password = NULL)
 	{
 		$this->credentials = new Credentials($username, $password);
 		$this->gateURL = $gateURL;

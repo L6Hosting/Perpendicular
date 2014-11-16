@@ -15,7 +15,7 @@ class Config extends AbstractAPI {
 
 	public function getProviderConfig()
 	{
-		//
+		return $this->call('get_provider_config');
 	}
 
 }
