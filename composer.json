@@ -1,0 +1,17 @@
+{
+    "name": "l6-hosting/perpendicular",
+    "description": "PHP Library that communicates with Parallel's PBAS SDK",
+    "authors": [
+        {
+            "name": "Travis Beck",
+            "email": "tjbenator@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "L6Hosting\\Perpendicular\\": "src/"
+        }
+    }
+
+}
