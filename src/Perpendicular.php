@@ -1,4 +1,4 @@
-<?php namespace L6Hosting\Perpendicular
+<?php namespace L6Hosting\Perpendicular;
 
 class Perpendicular {
 
